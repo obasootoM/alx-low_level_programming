@@ -19,6 +19,6 @@ for (high = 'a'; high <= 'z'; high++)
 if (high != e && high != q)
 putchar(high);
 }
-putchar(high);
+putchar('\n');
 return (0);
 }
