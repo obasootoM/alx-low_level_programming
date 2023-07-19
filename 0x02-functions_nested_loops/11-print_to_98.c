@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - checks for lowercase character.
  * @n: -second value.
@@ -6,9 +7,36 @@
  */
 void print_to_98(int n)
 {
-for (n = 0; n <= 98; n++)
+if (n <= 98)
 {
-_putchar(n);
+for (; n <= 98; n++)
+{
+if (n == 98)
+{
+printf("%d", n);
+printf("\n");
+break;
 }
-_putchar('\n');
+else
+{
+printf("%d", n);
+}
+}
+}
+else
+{
+for (; n >= 98; n--)
+{
+if (n == 98)
+{
+printf("%d", n);
+printf("\n");
+break;
+}
+else
+{
+printf("%d, ", n);
+}
+}
+}
 }
