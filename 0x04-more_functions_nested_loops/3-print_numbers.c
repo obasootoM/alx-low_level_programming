@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_numbers - checks for lowercase character.
- * Return: Always 0.
+ * print_numbers - print the numbers since 0 - 9.
+ * Return: return the numbers 0 up to 9.
  */
 void print_numbers(void)
 {
