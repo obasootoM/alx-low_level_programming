@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * _isdigit - checks for lowercase character.
- * @c: the charactert to be checked.
+ * print_numbers - checks for lowercase character.
  * Return: Always 0.
  */
-int _isdigit(int c)
+void print_numbers(void)
 {
-if (c >= 48 && c <= 57)
+int c;
+for (c = 0; c <= 9; c++)
 {
-return (1);
+_putchar(c + '0');
 }
-return (0);
+_putchar('\n');
+}
