@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * most_numbers - print the numbers since 0 - 9.
+ * more_numbers - print the numbers since 0 - 9.
  * Return: return the numbers 0 up to 9.
  */
 void more_numbers(void)
